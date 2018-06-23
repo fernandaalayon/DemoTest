@@ -1,0 +1,32 @@
+*.swp
+*.class
+*.log
+*.pdf
+*.txt
+
+# sbt specific
+.cache/
+.history/
+.lib/
+dist/
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/activator-sbt-eclipse-shim.sbt
+project/activator-sbt-idea-shim.sbt
+.idea
+.jvmopts
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# Ensime
+.ensime
+.ensime_cache/
+
+# Mac I guess
+.DS_Store
+.fuse*
